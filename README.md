@@ -7,7 +7,7 @@
   </h1>
 
 <h3 align="center">
-    <a href="https://starbucks-pag.netlify.app/">Access demo page</a>
+    <a href="https://instagram-accountpage.netlify.app/">Access demo page</a>
 <h3 >
 
 # Index
@@ -18,7 +18,7 @@
 
 ## 🔖&nbsp; About
 
-The Instagram Page is a project created in a DIO Bootcamp to reply the Intagram Account page with HTML and CSS. It is a project created in order to put into practice all the content studied during the intire HTML e CSS bootcamp as well to practice the *flexbox* and *responsiveness* properties.
+The Instagram Page is a project created in a DIO Bootcamp to replicate the Instagram Account Page with HTML and CSS. It is a project created in order to put into practice all the content studied during the intire HTML e CSS bootcamp as well to practice the *flexbox* and *responsiveness* properties.
 
 
 ---
