@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb (243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.intagram-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    height: 100vh;
+}
+
+.celphone-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.celphone {
+    height: 100%;
+}
+
+.account-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 320px;
+    min-height: 85%;
+    padding-top: 45px;  
+}
+
+.instagram-logo {
+    width: 150px;
+}
+
+.account__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 25px 50px;
+    border: 1px solid #DBDBDB;
+    background-color: #FFF;
+}
+
+.account__login p:last-child {
+    margin-top: 5px;
+}
+
+.account__login span {
+    color: #0095F6;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.perfil-photo {
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 20px;
+}
+
+.login-button {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 7px 12px;
+    color: white;
+    font-weight: 600;
+    background-color: #0095F6;
+}
+.remove-button {    
+    margin-top: 15px;
+    color: #0095F6;
+    font-weight: 600;
+}
+
+.remove-button:visited {
+    color: #0095F6;
+}
+
+.account__download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.buttons-area {
+    display: flex;
+    justify-content: center;
+    width: calc (320px - 50px);
+    margin: 15px 30px;
+}
+
+.button {
+    flex: 1;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+@media  (max-width: 415px) {
+    .account-area {
+        width: 100%;                
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .account__login {     
+        margin-left: 0px;
+        margin-right: 0px;
+        border: none;
+        background-color: #FAFAFA;
+    }
+
+    .account__download {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .intagram-area {
+        width: 100%;
+    }    
+}
+
+@media  (max-width: 800px) {
+    .celphone-area {
+        display: none;
+    }
+
+    .account-area {        
+        margin-left: 30px;
+        margin-right: 30px;
+    } 
+}
